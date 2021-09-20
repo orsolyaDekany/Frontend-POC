@@ -25,7 +25,7 @@ import org.osgi.service.component.annotations.Component;
 
         service = EditorConfigContributor.class
 )
-public class EditorConfigurator extends BaseEditorConfigContributor {
+public class AlloyEditorButtonConfigurator extends BaseEditorConfigContributor {
 
 	public void populateConfigJSONObject(
 		JSONObject jsonObject, Map<String, Object> inputEditorTaglibAttributes,
